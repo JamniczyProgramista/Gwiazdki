@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o kosmosie</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/ikona.ico">
+</head>
+<body>
+    <!-- NAWIGACJA  ------------------------------------------------------------------------------------------------>
+    <nav>
+        <ul>
+            <li><a href="#planety">Planety</a></li>
+            <li><a href="#gwiazdozbiory">Gwiazdozbiory</a></li>
+            <li><a href="#ksiezyc">Księżyc</a></li>
+        </ul>
+    </nav>
+
+    <!-- SEKCJA PARALAXY ------------------------------------------------------------------------------------------------>
+    <div id="paralax">
+        <section>
+            <img src="./img/stars.png" id="stars">
+            <img src="./img/moon.png" id="moon">
+            <img src="./img/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Kosmos</h2>
+            <a href="#sec" id="btn">Przeglądaj</a>
+            <img src="./img/mountains_front.png" id="mountains_front">
+        </section>
+    </div>
+    <!-- CAŁOSC  ------------------------------------------------------------------------------------------------>
+    <div class="sec" id="sec">
+        <div id="particles-js">
+
+    <!-- SEKCJA1  ------------------------------------------------------------------------------------------------>
+            <div class="sekcja1" id="planety">
+              <div id="przesuniecie">
+                <h2>Planety</h2>
+                <p>
+                Planety dzielone są na dwie kategorie: duże gazowe olbrzymy o małej gęstości oraz mniejsze planety skaliste. Według definicji IAU, w Układzie Słonecznym znanych jest 8 planet: cztery wewnętrzne – Merkury, Wenus, Ziemia, Mars i cztery zewnętrzne – Jowisz, Saturn, Uran i Neptun. Z wyjątkiem Merkurego i Wenus, wokół każdej z nich krąży jeden lub więcej księżyców. Do 26 grudnia 2017 roku Encyklopedia pozasłonecznych układów planetarnych stwierdzała istnienie 3727 planet pozasłonecznych.</p>
+                <p class="tekscik">Poniżej podane są wszysktie planety układu słonecznego w kolejności najblizszej słońcu: Merkury, venus, ziemia, mars, jowisz, satrun, uran, neptun.
+                </p>
+
+    <!-- SLIDER  ------------------------------------------------------------------------------------------------>
+                <ul class="slides">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="img/merkury.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-8" class="prev">&#x2039;</label>
+                            <label for="img-2" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/venus.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-1" class="prev">&#x2039;</label>
+                            <label for="img-3" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/ziemia.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-2" class="prev">&#x2039;</label>
+                            <label for="img-4" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-4" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/mars.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-3" class="prev">&#x2039;</label>
+                            <label for="img-5" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-5" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/jowisz.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-4" class="prev">&#x2039;</label>
+                            <label for="img-6" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-6" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/saturn.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-5" class="prev">&#x2039;</label>
+                            <label for="img-7" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-btn" id="img-7" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/uran.webp" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-6" class="prev">&#x2039;</label>
+                            <label for="img-8" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-btn" id="img-8" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="img/neptun.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-7" class="prev">&#x2039;</label>
+                            <label for="img-1" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <li class="nav-dots">
+                      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                      <label for="img-6" class="nav-dot" id="img-dot-7"></label>
+                      <label for="img-6" class="nav-dot" id="img-dot-8"></label>
+
+                    </li>
+                </ul>
+        </div>
+            </div>
+    <!-- SEKCJA2  ------------------------------------------------------------------------------------------------> 
+            <div class="sekcja2" id="gwiazdozbiory">
+              <div id="przeusniecie2">
+                <h2>Gwiazdozbiory</h2>
+                <p>
+                  Gwiazdozbiór to określony obszar na sferze niebieskiej ustalony przez Międzynarodową Unię Astronomiczną. Gwiazdy wchodzące w skład gwiazdozbiorów nie są ze sobą zazwyczaj fizycznie związane, a ich bliskie położenie na niebie jest wywołane geometrycznym efektem rzutowania ich położeń na sferę niebieską.</p>
+                    <p class="image2">
+                        <img src="img/aquarius-6834518_640.png" class="obrazek1" title="wodnik">
+                        <img src="img/aries-6834519_640.png" class="obrazek1" title="baran">
+                        <img src="img/cancer-6834520_640.png" class="obrazek1" title="rak">
+                        <img src="img/capricorn-6834526_640.png" class="obrazek1" title="koziorożec">
+                        <img src="img/gemini-6834530_640.png" class="obrazek1" title="bliźnięta">
+                        <img src="img/leo-6834531_640.png" class="obrazek1" title="lew">
+                        <img src="img/libra-6834532_640.png" class="obrazek1" title="waga">
+                        <img src="img/pisces-6834533_640.png" class="obrazek1" title="ryby">
+                        <img src="img/sagittarius-6834535_640.png" class="obrazek1" title="strzelec">
+                        <img src="img/scorpio-6834536_640.png" class="obrazek1" title="skoripn">
+                        <img src="img/taurus-6834538_640.png" class="obrazek1" title="byk">
+                        <img src="img/virgo-6834539_640.png" class="obrazek1" title="panna">
+                    </p>
+                  </div>
+            </div>
+
+            <div class="sekcja3" id="ksiezyc">
+              <div id="przesuniecie3">
+              <h2>Księżyc</h2>
+              <p>
+                Księżyc to jedyne ciało niebieskie, do którego podróżowali i na którym wylądowali ludzie. Do tej pory na księżycowym globie stanęło dwunastu astronautów Odbija on światło słoneczne. Jest piątym co do wielkości księżycem w Układzie Słonecznym. Posiada on również swoje fazy</p>
+                <p class="tekscik">Faza Księżyca określa oglądaną z Ziemi część Księżyca oświetloną przez Słońce. Ponieważ Słońce oświetla zawsze (poza zaćmieniami) tylko połowę powierzchni Księżyca, jego fazy są rezultatem oglądania tej połowy pod różnymi kątami spowodowanymi różnymi położeniami Słońca, Ziemi i Księżyca względem siebie.</p>
+                <div class="ksiezycus"><img src="img/fazy_ksiezyca.jpg" class="fazy"></div>
+              </div>
+          </div>
+
+        </div> 
+    </div>
+
+    <footer>
+        <p class="middle">
+            <a onMouseOver="obrazek1.src='img/Github2.svg'" onMouseOut="obrazek1.src='img/Github.svg'" href="https://www.github.com" target="_blank">
+            <img src="img/Github.svg" name="obrazek1">
+            </a>
+
+            <a onMouseOver="obrazek2.src='img/Snapchat2.svg'" onMouseOut="obrazek2.src='img/Snapchat.svg'" href="https://www.Snapchat.com" target="_blank">
+            <img src="img/Snapchat.svg" name="obrazek2">
+            </a>
+
+            <a onMouseOver="obrazek3.src='img/Linkedin2.svg'" onMouseOut="obrazek3.src='img/Linkedin.svg'" href="https://www.Linkedin.com" target="_blank">
+            <img src="img/Linkedin.svg" name="obrazek3">
+            </a>
+        </p>
+    </footer>
+    <!-- SKRYPT ------------------------------------------------------------------------------------------------>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+
+/* Author : Vincent Garreau  - vincentgarreau.com
+/* MIT license: https://opensource.org/licenses/MIT
+/* GitHub : https://github.com/VincentGarreau/particles.js
+*/
+function launchParticlesJS(a,e){var i=document.querySelector("#"+a+" > canvas");pJS={canvas:{el:i,w:i.offsetWidth,h:i.offsetHeight},particles:{color:"#fff",shape:"circle",opacity:1,size:2.5,size_random:true,nb:200,line_linked:{enable_auto:true,distance:100,color:"#fff",opacity:1,width:1,condensed_mode:{enable:true,rotateX:65000,rotateY:65000}},anim:{enable:true,speed:1},array:[]},interactivity:{enable:true,mouse:{distance:100},detect_on:"canvas",mode:"grab",line_linked:{opacity:1},events:{onclick:{enable:true,mode:"push",nb:4}}},retina_detect:false,fn:{vendors:{interactivity:{}}}};if(e){if(e.particles){var b=e.particles;if(b.color){pJS.particles.color=b.color}if(b.shape){pJS.particles.shape=b.shape}if(b.opacity){pJS.particles.opacity=b.opacity}if(b.size){pJS.particles.size=b.size}if(b.size_random==false){pJS.particles.size_random=b.size_random}if(b.nb){pJS.particles.nb=b.nb}if(b.line_linked){var j=b.line_linked;if(j.enable_auto==false){pJS.particles.line_linked.enable_auto=j.enable_auto}if(j.distance){pJS.particles.line_linked.distance=j.distance}if(j.color){pJS.particles.line_linked.color=j.color}if(j.opacity){pJS.particles.line_linked.opacity=j.opacity}if(j.width){pJS.particles.line_linked.width=j.width}if(j.condensed_mode){var g=j.condensed_mode;if(g.enable==false){pJS.particles.line_linked.condensed_mode.enable=g.enable}if(g.rotateX){pJS.particles.line_linked.condensed_mode.rotateX=g.rotateX}if(g.rotateY){pJS.particles.line_linked.condensed_mode.rotateY=g.rotateY}}}if(b.anim){var k=b.anim;if(k.enable==false){pJS.particles.anim.enable=k.enable}if(k.speed){pJS.particles.anim.speed=k.speed}}}if(e.interactivity){var c=e.interactivity;if(c.enable==false){pJS.interactivity.enable=c.enable}if(c.mouse){if(c.mouse.distance){pJS.interactivity.mouse.distance=c.mouse.distance}}if(c.detect_on){pJS.interactivity.detect_on=c.detect_on}if(c.mode){pJS.interactivity.mode=c.mode}if(c.line_linked){if(c.line_linked.opacity){pJS.interactivity.line_linked.opacity=c.line_linked.opacity}}if(c.events){var d=c.events;if(d.onclick){var h=d.onclick;if(h.enable==false){pJS.interactivity.events.onclick.enable=false}if(h.mode!="push"){pJS.interactivity.events.onclick.mode=h.mode}if(h.nb){pJS.interactivity.events.onclick.nb=h.nb}}}}pJS.retina_detect=e.retina_detect}pJS.particles.color_rgb=hexToRgb(pJS.particles.color);pJS.particles.line_linked.color_rgb_line=hexToRgb(pJS.particles.line_linked.color);if(pJS.retina_detect&&window.devicePixelRatio>1){pJS.retina=true;pJS.canvas.pxratio=window.devicePixelRatio;pJS.canvas.w=pJS.canvas.el.offsetWidth*pJS.canvas.pxratio;pJS.canvas.h=pJS.canvas.el.offsetHeight*pJS.canvas.pxratio;pJS.particles.anim.speed=pJS.particles.anim.speed*pJS.canvas.pxratio;pJS.particles.line_linked.distance=pJS.particles.line_linked.distance*pJS.canvas.pxratio;pJS.particles.line_linked.width=pJS.particles.line_linked.width*pJS.canvas.pxratio;pJS.interactivity.mouse.distance=pJS.interactivity.mouse.distance*pJS.canvas.pxratio}pJS.fn.canvasInit=function(){pJS.canvas.ctx=pJS.canvas.el.getContext("2d")};pJS.fn.canvasSize=function(){pJS.canvas.el.width=pJS.canvas.w;pJS.canvas.el.height=pJS.canvas.h;window.onresize=function(){if(pJS){pJS.canvas.w=pJS.canvas.el.offsetWidth;pJS.canvas.h=pJS.canvas.el.offsetHeight;if(pJS.retina){pJS.canvas.w*=pJS.canvas.pxratio;pJS.canvas.h*=pJS.canvas.pxratio}pJS.canvas.el.width=pJS.canvas.w;pJS.canvas.el.height=pJS.canvas.h;pJS.fn.canvasPaint();if(!pJS.particles.anim.enable){pJS.fn.particlesRemove();pJS.fn.canvasRemove();f()}}}};pJS.fn.canvasPaint=function(){pJS.canvas.ctx.fillRect(0,0,pJS.canvas.w,pJS.canvas.h)};pJS.fn.canvasRemove=function(){pJS.canvas.ctx.clearRect(0,0,pJS.canvas.w,pJS.canvas.h)};pJS.fn.particle=function(n,o,m){this.x=m?m.x:Math.random()*pJS.canvas.w;this.y=m?m.y:Math.random()*pJS.canvas.h;this.radius=(pJS.particles.size_random?Math.random():1)*pJS.particles.size;if(pJS.retina){this.radius*=pJS.canvas.pxratio}this.color=n;this.opacity=o;this.vx=-0.5+Math.random();this.vy=-0.5+Math.random();this.draw=function(){pJS.canvas.ctx.fillStyle="rgba("+this.color.r+","+this.color.g+","+this.color.b+","+this.opacity+")";pJS.canvas.ctx.beginPath();switch(pJS.particles.shape){case"circle":pJS.canvas.ctx.arc(this.x,this.y,this.radius,0,Math.PI*2,false);break;case"edge":pJS.canvas.ctx.rect(this.x,this.y,this.radius*2,this.radius*2);break;case"triangle":pJS.canvas.ctx.moveTo(this.x,this.y-this.radius);pJS.canvas.ctx.lineTo(this.x+this.radius,this.y+this.radius);pJS.canvas.ctx.lineTo(this.x-this.radius,this.y+this.radius);pJS.canvas.ctx.closePath();break}pJS.canvas.ctx.fill()}};pJS.fn.particlesCreate=function(){for(var m=0;m<pJS.particles.nb;m++){pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color_rgb,pJS.particles.opacity))}};pJS.fn.particlesAnimate=function(){for(var n=0;n<pJS.particles.array.length;n++){var q=pJS.particles.array[n];q.x+=q.vx*(pJS.particles.anim.speed/2);q.y+=q.vy*(pJS.particles.anim.speed/2);if(q.x-q.radius>pJS.canvas.w){q.x=q.radius}else{if(q.x+q.radius<0){q.x=pJS.canvas.w+q.radius}}if(q.y-q.radius>pJS.canvas.h){q.y=q.radius}else{if(q.y+q.radius<0){q.y=pJS.canvas.h+q.radius}}for(var m=n+1;m<pJS.particles.array.length;m++){var o=pJS.particles.array[m];if(pJS.particles.line_linked.enable_auto){pJS.fn.vendors.distanceParticles(q,o)}if(pJS.interactivity.enable){switch(pJS.interactivity.mode){case"grab":pJS.fn.vendors.interactivity.grabParticles(q,o);break}}}}};pJS.fn.particlesDraw=function(){pJS.canvas.ctx.clearRect(0,0,pJS.canvas.w,pJS.canvas.h);pJS.fn.particlesAnimate();for(var m=0;m<pJS.particles.array.length;m++){var n=pJS.particles.array[m];n.draw("rgba("+n.color.r+","+n.color.g+","+n.color.b+","+n.opacity+")")}};pJS.fn.particlesRemove=function(){pJS.particles.array=[]};pJS.fn.vendors.distanceParticles=function(t,r){var o=t.x-r.x,n=t.y-r.y,s=Math.sqrt(o*o+n*n);if(s<=pJS.particles.line_linked.distance){var m=pJS.particles.line_linked.color_rgb_line;pJS.canvas.ctx.beginPath();pJS.canvas.ctx.strokeStyle="rgba("+m.r+","+m.g+","+m.b+","+(pJS.particles.line_linked.opacity-s/pJS.particles.line_linked.distance)+")";pJS.canvas.ctx.moveTo(t.x,t.y);pJS.canvas.ctx.lineTo(r.x,r.y);pJS.canvas.ctx.lineWidth=pJS.particles.line_linked.width;pJS.canvas.ctx.stroke();pJS.canvas.ctx.closePath();if(pJS.particles.line_linked.condensed_mode.enable){var o=t.x-r.x,n=t.y-r.y,q=o/(pJS.particles.line_linked.condensed_mode.rotateX*1000),p=n/(pJS.particles.line_linked.condensed_mode.rotateY*1000);r.vx+=q;r.vy+=p}}};pJS.fn.vendors.interactivity.listeners=function(){if(pJS.interactivity.detect_on=="window"){var m=window}else{var m=pJS.canvas.el}m.onmousemove=function(p){if(m==window){var o=p.clientX,n=p.clientY}else{var o=p.offsetX||p.clientX,n=p.offsetY||p.clientY}if(pJS){pJS.interactivity.mouse.pos_x=o;pJS.interactivity.mouse.pos_y=n;if(pJS.retina){pJS.interactivity.mouse.pos_x*=pJS.canvas.pxratio;pJS.interactivity.mouse.pos_y*=pJS.canvas.pxratio}pJS.interactivity.status="mousemove"}};m.onmouseleave=function(n){if(pJS){pJS.interactivity.mouse.pos_x=0;pJS.interactivity.mouse.pos_y=0;pJS.interactivity.status="mouseleave"}};if(pJS.interactivity.events.onclick.enable){switch(pJS.interactivity.events.onclick.mode){case"push":m.onclick=function(o){if(pJS){for(var n=0;n<pJS.interactivity.events.onclick.nb;n++){pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color_rgb,pJS.particles.opacity,{x:pJS.interactivity.mouse.pos_x,y:pJS.interactivity.mouse.pos_y}))}}};break;case"remove":m.onclick=function(n){pJS.particles.array.splice(0,pJS.interactivity.events.onclick.nb)};break}}};pJS.fn.vendors.interactivity.grabParticles=function(r,q){var u=r.x-q.x,s=r.y-q.y,p=Math.sqrt(u*u+s*s);var t=r.x-pJS.interactivity.mouse.pos_x,n=r.y-pJS.interactivity.mouse.pos_y,o=Math.sqrt(t*t+n*n);if(p<=pJS.particles.line_linked.distance&&o<=pJS.interactivity.mouse.distance&&pJS.interactivity.status=="mousemove"){var m=pJS.particles.line_linked.color_rgb_line;pJS.canvas.ctx.beginPath();pJS.canvas.ctx.strokeStyle="rgba("+m.r+","+m.g+","+m.b+","+(pJS.interactivity.line_linked.opacity-o/pJS.interactivity.mouse.distance)+")";pJS.canvas.ctx.moveTo(r.x,r.y);pJS.canvas.ctx.lineTo(pJS.interactivity.mouse.pos_x,pJS.interactivity.mouse.pos_y);pJS.canvas.ctx.lineWidth=pJS.particles.line_linked.width;pJS.canvas.ctx.stroke();pJS.canvas.ctx.closePath()}};pJS.fn.vendors.destroy=function(){cancelAnimationFrame(pJS.fn.requestAnimFrame);i.remove();delete pJS};function f(){pJS.fn.canvasInit();pJS.fn.canvasSize();pJS.fn.canvasPaint();pJS.fn.particlesCreate();pJS.fn.particlesDraw()}function l(){pJS.fn.particlesDraw();pJS.fn.requestAnimFrame=requestAnimFrame(l)}f();if(pJS.particles.anim.enable){l()}if(pJS.interactivity.enable){pJS.fn.vendors.interactivity.listeners()}}window.requestAnimFrame=(function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1000/60)}})();window.cancelRequestAnimFrame=(function(){return window.cancelAnimationFrame||window.webkitCancelRequestAnimationFrame||window.mozCancelRequestAnimationFrame||window.oCancelRequestAnimationFrame||window.msCancelRequestAnimationFrame||clearTimeout})();function hexToRgb(c){var b=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;c=c.replace(b,function(e,h,f,d){return h+h+f+f+d+d});var a=/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(c);return a?{r:parseInt(a[1],16),g:parseInt(a[2],16),b:parseInt(a[3],16)}:null}window.particlesJS=function(d,c){if(typeof(d)!="string"){c=d;d="particles-js"}if(!d){d="particles-js"}var b=document.createElement("canvas");b.style.width="100%";b.style.height="100%";var a=document.getElementById(d).appendChild(b);if(a!=null){launchParticlesJS(d,c)}};
+
+
+particlesJS('particles-js', {
+  particles: {
+    color: '#fff',
+    shape: 'circle', // "circle", "edge" or "triangle"
+    opacity: 1,
+    size: 6,
+    size_random: true,
+    nb: 1000,
+    line_linked: {
+      enable_auto: true,
+      distance: 100,
+      color: '#fff',
+      opacity: 1,
+      width: 1,
+      condensed_mode: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 600
+      }
+    },
+    anim: {
+      enable: true,
+      speed: 1
+    }
+  },
+  interactivity: {
+    enable: true,
+    mouse: {
+      distance: 250
+    },
+    detect_on: 'canvas', // "canvas" or "window"
+    mode: 'grab',
+    line_linked: {
+      opacity: .5
+    },
+    events: {
+      onclick: {
+        enable: true,
+        mode: 'push', // "push" or "remove" (particles)
+        nb: 4
+      }
+    } 
+  },
+  /* Retina Display Support */
+  retina_detect: true
+});
+    </script>
+</body>
+</html>
+
+
+
+
