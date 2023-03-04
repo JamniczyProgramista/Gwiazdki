@@ -1,0 +1,4 @@
+ogarnij kod bo wygląda to tragicznie
+popraw slider
+ogarnij responsywność
+zrób coś żeby to sie nie ładowalo tak długo
